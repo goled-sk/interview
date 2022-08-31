@@ -16,7 +16,7 @@ class SimpleCustomer {
 
 
 	public function __construct($first_name, $last_name) {
-        // your code
+		// your code
 	}
 
 
@@ -25,7 +25,7 @@ class SimpleCustomer {
 	 */
 	public function get_full_name() : string {
 		// your code
-        return ''; // remove when your code is present
+		return ''; // remove when your code is present
 	}
 
 
@@ -33,9 +33,9 @@ class SimpleCustomer {
 	 * @return array associative array of the billing info ['billing_addr' => ..., ...]
 	 */
 	public function get_billing() : array {
-        // your code
+		// your code
 
-        return array(); // remove when your code is present
+		return array(); // remove when your code is present
 	}
 
 
@@ -43,8 +43,8 @@ class SimpleCustomer {
 	 * @return array associative array of the shipping info ['shipping_addr' => ..., ...]
 	 */
 	public function get_shipping(){
-        // your code
+		// your code
 
-        return array(); // remove when your code is present
+		return array(); // remove when your code is present
 	}
 }

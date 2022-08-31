@@ -6,13 +6,13 @@ class SimpleOrder {
 	public SimpleCustomer $customer;
 	private array $order; // ordered items
 
-    // do not remove
+	// do not remove
 	private int $tax_percentage = 20;
 
 
 	public function __construct(SimpleCustomer $customer) {
-        // your solution
-    }
+		// your solution
+	}
 
 	/**
 	 * @param string $name name of the item
@@ -24,21 +24,21 @@ class SimpleOrder {
 	
 
 	/**
-     * Can be solved without this method (just for good practice)
+	 * Can be solved without this method (just for good practice)
 	 * @return array associative items with taxed prices [name => cost, ...]
 	 */
 	private function add_tax() : array {
 		// your solution
 
-        return array(); // remove when your code is present
+		return array(); // remove when your code is present
 	}
 
 	/**
 	 * @return array associative array of sums for each item cost and total cost (including tax) [name => cost, ..., total => cost]
 	 */
 	public function get_price() : array {
-        // your solution
+		// your solution
 
-        return array(); // remove when your code is present
+		return array(); // remove when your code is present
 	}
 }
